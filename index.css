@@ -1,0 +1,22 @@
+html {
+	min-height: 100%;
+}
+
+body{
+font-family: 'Markazi Text', serif;
+	background: linear-gradient(rgb(116,148,238), rgb(176,188,229));
+}
+
+
+
+.top_nav_item {
+	color:midnightblue;
+	font-size:1.2em;
+	margin:10px;
+}
+
+.top_nav_item:hover {
+	color:white;
+	text-align:right;
+	text-decoration:underline;
+}

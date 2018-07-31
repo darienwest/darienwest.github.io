@@ -1,0 +1,31 @@
+
+.photo{
+	display:inline-block;
+	border:2px pink solid;
+	width:30%;
+}
+
+.picture{
+	object-fit: cover;
+	height:300px;
+	width:300px;
+	display:inline-block;
+}
+
+
+body{
+	background-image:url(leafvillage.jpg);
+	background-attachment: fixed;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:repeat;
+}
+
+@media only screen and (max-width:600px){
+	.photo{display:block;
+		border:solid 2px maroon;
+		width:80%;
+		margin:10px auto;}
+#gallery{margin-top:50px;}
+	h1{font-size:2em;}	
+}

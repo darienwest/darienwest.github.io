@@ -1,0 +1,33 @@
+body{
+font-family: 'Markazi Text', serif;
+	background: linear-gradient(rgb(116,148,238), rgb(176,188,229));
+}
+
+.top_nav_item {
+	color:midnightblue;
+	font-size:1.2em;
+	margin:10px;
+}
+
+.top_nav_item:hover {
+	color:white;
+	text-align:right;
+	text-decoration:underline;
+}
+
+
+iframe{
+	display:block;
+	margin:auto;
+}
+
+
+#page_title_text{
+    text-align:center;
+    letter-spacing: 4px;
+    background-color:white;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    padding:5px;
+    border:black solid 2px;
+}
